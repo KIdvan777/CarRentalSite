@@ -1,0 +1,109 @@
+.wrapper{
+	
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 34px;
+		padding-bottom: 34px;
+		max-width: 280px;
+		box-shadow:  0.1px 0.1px 29px 0.1px rgba(0, 0, 0, 0.50);
+		background-color: #fff;
+		@mixin clearfix;
+
+		&-noshadow{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;			
+			max-width: 280px;
+			@mixin clearfix;
+		}
+
+	&--media-shadow{
+		@mixin atSmall{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 500px;
+			box-shadow:  0.1px 0.1px 29px 0.1px rgba(0, 0, 0, 0.50);
+			background-color: #fff;
+			@mixin clearfix;
+
+		}
+			
+		@mixin atMedium{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 750px;
+			box-shadow:  0.1px 0.1px 29px 0.1px rgba(0, 0, 0, 0.50);
+			background-color: #fff;
+			@mixin clearfix;
+		}
+			
+		@mixin atLarge{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 1140px;
+			box-shadow:  0.1px 0.1px 29px 0.1px rgba(0, 0, 0, 0.50);
+			background-color: #fff;
+			@mixin clearfix;
+		}
+
+		@mixin atExtraLarge{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 1340px;
+			box-shadow:  0.1px 0.1px 29px 0.1px rgba(0, 0, 0, 0.50);
+			background-color: #fff;
+			@mixin clearfix;
+		}
+		
+	}
+
+	&--media-noshadow{
+		@mixin atSmall{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 500px;
+			@mixin clearfix;
+
+		}
+			
+		@mixin atMedium{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 750px;
+			@mixin clearfix;
+		}
+			
+		@mixin atLarge{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 1140px;
+			@mixin clearfix;
+		}
+
+		@mixin atExtraLarge{
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 34px;
+			padding-bottom: 34px;
+			max-width: 1340px;
+			@mixin clearfix;
+		}
+		
+	}
+		
+}

@@ -1,0 +1,108 @@
+.header{
+
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		@mixin atSmall{
+			background-color: rgba(255,255,255,.9);
+		}
+
+	&__wrap{
+		padding-left: 56px;
+		padding-right: 56px;
+	}
+
+	&__logo{
+				display: none;
+
+			@mixin atSmall{
+				float: left;
+				display: inline-block;
+			}
+
+			@mixin atMedium{
+				width: 20%;
+				float: left;			
+			}
+		}
+
+	&__nav{
+		@mixin atLarge{
+
+		}
+
+		@mixin atLarge{
+			width: 70%;
+			float: right;
+			ul{
+				margin: 0;
+				padding: 0;
+				@mixin clearfix;
+
+				li{
+					float: left;
+					list-style: none;
+					padding-top: 10px;
+					
+					a{
+						text-decoration: none; 
+						padding: 26px 20px 30px 20px;
+						color: #a19fa1;
+						font-size: 1rem; 
+						font-weight: bold;
+						-moz-transform: matrix( 1.00034469820604,0,0,1.0003579466835,0,0);
+				  	-webkit-transform: matrix( 1.00034469820604,0,0,1.0003579466835,0,0);
+				  	-ms-transform: matrix( 1.00034469820604,0,0,1.0003579466835,0,0);
+				  	&:hover{
+				  		border-top: 6px solid #ffec0a;
+				  		background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0));
+				  		-webkit-background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0));
+				  		-moz-background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0));
+				  		-ms-background: linear-gradient(to bottom, #ffffff, rgba(255,255,255,0));
+				  	}
+					}
+				}
+			}
+		}
+	
+	}
+	.wrapper--media-noshadow{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.sign{
+		border:1px solid #a19fa1;
+		border-radius: 4px;
+		padding: 14px 28px 14px 28px ;
+		&:hover{
+			border:none;
+			background: linear-gradient(to top, #ffed1d 10%, #fbf4a3);
+			-webkit-background: linear-gradient(to top, #ffed1d, #fbf4a3);
+			-moz-background: linear-gradient(to top, #ffed1d, #fbf4a3));
+			-ms-background: linear-gradient(to top, #ffed1d 10%, #fbf4a3);
+			border-top: 0px solid #ffec0a;
+			color: #000;
+		}
+		&-margin-left{
+			margin-left: 4px;
+		}
+	}
+	&__menu-content{
+		display: none;
+
+		@mixin atLarge{
+			display:block;
+		}
+	}
+	&__menu-icon{
+		width: 30px;
+		height: 30px;
+		background-color: #000;
+		float: right;
+		@mixin atLarge{
+			display: none;
+		}
+	}
+}
+
+

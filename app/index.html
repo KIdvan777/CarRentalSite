@@ -8,7 +8,6 @@
   <meta name="description" content="Your clarity. One trip away. We create soul restoring journeys that inspire you to be you.">
 	<title>CarRentalSite</title>
 	<link rel="stylesheet" href="temp/styles/styles.css">
-  <script src="assets/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 <!-- Header -->
@@ -19,6 +18,9 @@
   </div>
 
   <div class="header__menu-icon">
+    <div class="header__menu-icon__bottom"></div>
+    <div class="header__menu-icon__top"></div>
+    <div class="header__menu-icon__middle"></div>
     
   </div>
 
@@ -47,10 +49,10 @@
     <picture>
       <source  srcset="assets/images/main_bg--extra-large.jpg"  media="(min-width: 1380px)">
       <source  srcset="assets/images/main_bg.png "  media="(min-width: 1280px)">
-      <source  srcset="assets/images/main_bg--medium.jpg "  media="(min-width: 830px)">
-      <source  srcset="assets/images/main_bg--small.jpg "  media="(min-width: 600px)">
-      <source  srcset="assets/images/main_bg--smaller.jpg "  media="(min-width: 400px)">  
-      <img src="assets/images/main_bg--ultra-small.png " alt="Road view" class="main_bg__img">
+      <source  srcset="assets/images/md_1.jpg "  media="(min-width: 830px)">
+      <source  srcset="assets/images/sm_4.jpg"  media="(min-width: 600px)">
+      <source  srcset="assets/images/sm_3.jpg"  media="(min-width: 400px)">  
+      <img src="assets/images/sm_2.jpg " alt="Road view" class="main_bg__img">
     </picture>
 
   	<!-- Form -->
@@ -117,11 +119,12 @@
       </ul>
     </div>
     <!-- Vehicles item -->
-    <!-- end item -->
+   <!-- end item -->
     <div class="vehicles__item">
       <img  class="vehicles__img"  src="./assets/images/car4.png" alt="">
       <p>SMALL:ECONOMY</p>
-      <span>example of this range: ford fiesta</span>
+      <span>example of this range: ford fiesta
+      example of this range: ford fiesta</span>
       <ul class="vehicles__options egual-height-at-medium">
         <li><img src="assets/images/man.png" alt=""><i>5</i></li>
         <li><img src="assets/images/bag.png" alt=""><i>5</i></li>
@@ -129,7 +132,7 @@
         <li><img src="assets/images/transmision.png" alt=""><i>A</i></li>
       </ul>
     </div>
-
+ <!-- end item -->
     </div>    
   </div>
   <!-- Locations section -->
@@ -178,6 +181,6 @@
   </div>
 </footer>
 <!-- End -->
-	 <script src="assets/js/egual_hight.js"></script>
+   <script src="temp/scripts/App.js"></script>
 </body>
 </html>

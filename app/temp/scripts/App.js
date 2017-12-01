@@ -10346,7 +10346,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var mobileMenu = new _MobileMenu2.default();
 var itemHight = new _ItemHight2.default((0, _jquery2.default)(".vehicles__item"));
-var itemHight_span = new _ItemHight2.default((0, _jquery2.default)(".vehicles__item>span"));
+var itemHight_span = new _ItemHight2.default((0, _jquery2.default)(".vehicles__item span "));
 var itemHight_p = new _ItemHight2.default((0, _jquery2.default)(".vehicles__item>p"));
 
 /***/ }),

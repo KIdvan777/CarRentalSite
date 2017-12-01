@@ -877,33 +877,34 @@ img{
 	}
 
 .vehicles__item{
-		float: left;
+		float: none;
 		width: 100%;
 		margin-top: 34px;
 	}
 
-.vehicles__item span{
-				display: block;
-				width: 100%;
-				background-color: #fccf1d;
-				font-size: 0.85rem;
-				padding: 6px 14px 6px 14px;
-			  color: rgb(47, 44, 44);
-			  font-style: italic;
-			  text-transform: uppercase;
-			  text-align: left;
-			  overflow: hidden;
-			}
-
 .vehicles__item p{
-				margin-bottom:10px;
-				font-size: 1.1rem;
-			  color: rgb(47, 46, 46);
-			  font-weight: 550;
-			  text-transform: uppercase;
-			  text-align: left;
-			  margin-left: 12px;
-			  overflow: hidden;
+			font-size: 1.1rem;
+			 color: rgb(47, 46, 46);
+			 font-weight: 550;
+			 text-transform: uppercase;
+			 text-align: left;
+			 margin-left: 12px;
+			 padding-right: 12px;
+			 line-height: 1;
+			 overflow: hidden;
+		}
+
+.vehicles__item span{
+			display: block;
+			width: 100%;
+			background-color: #fccf1d;
+			padding: 6px 6px 6px 12px;
+			font-size: 0.85rem;
+			color: rgb(47, 44, 44);
+			font-style: italic;
+			text-transform: uppercase;
+			text-align: left;
+			overflow: hidden;
 			}
 
 @media (min-width: 530px){
@@ -970,6 +971,7 @@ img{
 			-webkit-transition: .1s ease-out;
 			-o-transition: .1s ease-out;
 			transition: .1s ease-out;
+			
 			}
 	}
 

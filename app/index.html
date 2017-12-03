@@ -33,8 +33,8 @@
         <li><a href="">Location</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Contact</a></li>
-        <li><a href="" class="sign sign-margin-left">Sign In</a></li>
-        <li><a href="" class="sign sign-margin-left">Sign Up</a></li>
+        <li><a href="" id="sign_in" class="sign sign-margin-left">Sign In</a></li>
+        <li><a href="" id="sign up" class="sign sign-margin-left">Sign Up</a></li>
       </ul>
     </nav>
   </div>
@@ -181,6 +181,26 @@
     </ul>
   </div>
 </footer>
+<!-- Modal -->
+<div class="modal ">
+  <div class=" wrapper--media-noshadow wrapper-noshadow">
+   
+    <div class="modal__form main_bg__form "> 
+      <h1 class="modal__title main_bg__title black">Sign in</h1>
+      <form action="">
+        <label for="Login">Enter your login & password</label><br>
+        <input type="text" name="Login" placeholder="Enter your Login"><br>
+        <input type="text" name="Password" placeholder="Enter your Password"><br>
+        <input type="submit" value="Enter">  
+      </form>
+    </div>
+    <div class="modal__close">
+      X
+    </div>
+
+  </div>
+</div>
+  
 <!-- End -->
    <script src="temp/scripts/App.js"></script>
 </body>

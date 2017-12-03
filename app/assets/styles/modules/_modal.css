@@ -1,0 +1,56 @@
+.modal{
+	position: fixed;
+	z-index: 5;
+	background-color: rgba(255,255,255,.94);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+
+	&--is-visible{
+		opacity: 1;
+		visibility: visible;
+
+	}
+
+	&__form{
+		position: relative;
+		top: 300px;
+
+
+		label[for="Login"]{
+			margin-top: 34px;
+			font-size: 0.8rem;
+			color: #000;
+			font-weight: bold;
+			line-height: 1.28;
+			text-align: left;
+			-moz-transform: matrix( 1,0,0,0.99999950519443,0,0);
+			-webkit-transform: matrix( 1,0,0,0.99999950519443,0,0);
+			-ms-transform: matrix( 1,0,0,0.99999950519443,0,0);
+
+			@mixin atSmall {
+				font-size: 1rem;
+			}
+		}		
+	}
+	&__close{
+		position: absolute;
+		top:15px;
+		right: 15px;
+		font-size: 2rem;
+		font-weight: bold;
+		transform:scaleX(1.2);
+		transform-origin: 100% 0;
+		cursor: pointer;
+		&:hover{
+			color: red;
+		}
+	}
+}
+
+.black{
+	color: #000;
+}
